@@ -1,0 +1,13 @@
+.keyboard > .letter {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 17);
+    outline: 0.08em solid silver;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+    justify-content: center;
+}
+
+.keyboard > .letter.used {
+    background: silver;
+}
